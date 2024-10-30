@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        
+        <!-- Meu CSS -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <title>Bioessense</title>
+
+  </head>
+
+  <body>
+
+        <!-- Inicío do Nav (Menu) -->
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">BIOESSENSE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Início <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Quem somos</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link disabled">Clientes</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://wa.me/qr/4SERP5TSNKIKD1">Contato</a>
+                  </li>
+
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+              </form>
+            </div>
+          </nav>
+
+        <!-- Fim do Nav (Menu) -->
+
+        <!-- Inicío Slide Show -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            
+            
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagens/med1.jpg" class="d-block w-100" alt="..."   width="200px" height="600pxpx">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Health More</h5>
+                  <p>'Conteúdo representativo com imagens de médicamentos'</p>
+                </div>
+             
+             
+             
+             
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/med6.jpg" class="d-block w-100" alt="..."  width="200px" height="600pxpx">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Health More</h5>
+                  <p>'Conteúdo representativo com imagens de médicamentos'</p>
+                </div>
+              
+              
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/med3.jpg" class="d-block w-100" alt="..."  width="200px" height="600pxpx">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Health More</h5>
+                  <p>'Conteúdo representativo com imagens de médicamentos'</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </button>
+          </div>
+        <!-- Fim Slide Show -->
+
+        <br>
+        <br>
+
+        <!-- Inicío Seção de cartões -->
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="imagens/med1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Medicamento Genérico</h5>
+                  <p class="card-text">Os medicamentos genéricos contêm o mesmo princípio ativo que os medicamentos de referência, mas são vendidos por preços mais baixos. Embora sejam considerados igualmente eficazes, as alergias podem ocorrer devido a excipientes ou ao próprio princípio ativo, assim como nos medicamentos de referência.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="imagens/med2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Medicamento Alopático</h5>
+                  <p class="card-text">Os medicamentos alopáticos são aqueles que tratam doenças por meio de substâncias que causam efeitos contrários aos sintomas. Como em outros tipos de medicamentos, reações alérgicas podem ocorrer, especialmente a substâncias ativas ou excipientes presentes na fórmula.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="imagens/med3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Medicamento Homeopático</h5>
+                  <p class="card-text">Os medicamentos homeopáticos são feitos a partir de substâncias naturais e são altamente diluídos. Embora sejam geralmente considerados seguros, algumas pessoas podem ter reações alérgicas a ingredientes específicos. É essencial informar o médico sobre qualquer alergia conhecida antes de iniciar o tratamento.</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="imagens/med4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Medicamento Similar</h5>
+                  <p class="card-text">Medicamentos similares têm a mesma composição química que os medicamentos de referência, mas podem ter diferenças na forma como são fabricados. Eles não precisam passar pelos mesmos testes rigorosos de eficácia, mas devem ser seguros. Alergias podem ocorrer se a pessoa for alérgica a um dos componentes ou excipientes utilizados.</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="imagens/med5.jpg" class="card-img-top" alt="..." >      
+                <div class="card-body">
+                  <h5 class="card-title">Medicamento Manipulado</h5>
+                  <p class="card-text">Medicamentos manipulados são preparados por farmácias de manipulação de acordo com a prescrição médica. Eles podem ser feitos em doses ou formas específicas para atender às necessidades do paciente. Como são personalizados, alergias podem surgir dependendo dos ingredientes utilizados, especialmente em excipientes ou substâncias ativas.</p>
+                </div>
+              </div>
+
+            
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="imagens/med6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Medicamento de Referência</h5>
+                  <p class="card-text">Esses são os medicamentos originais, desenvolvidos e testados para garantir eficácia e segurança. A alergia pode ocorrer a qualquer um dos componentes do medicamento, como o princípio ativo ou excipientes. É importante conhecer o histórico alérgico do paciente antes da prescrição.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- Fim Seção de Cartões -->
+
+        <!-- Inicío Footer -->
+        <div class="alert alert-dark text-center" role="alert">
+          Todos os direitos reservados - 2024 - Webdesigner: BIOESSENSE
+        </div>
+        <!-- Final Footer -->
+
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+  </body>
+</html>
